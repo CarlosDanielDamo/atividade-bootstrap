@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>PlayStation 5 — O Futuro dos Games</title>
+<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300;400;600;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<!-- NAV -->
+<nav>
+  <a class="nav-logo" href="#">
+    <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <rect width="32" height="32" rx="6" fill="#0070D1"/>
+      <text x="6" y="23" font-family="Arial" font-weight="900" font-size="17" fill="white">PS</text>
+    </svg>
+    PlayStation 5
+  </a>
+  <ul class="nav-links">
+    <li><a href="#features">Recursos</a></li>
+    <li><a href="#galeria">Galeria</a></li>
+    <li><a href="#specs">Especificações</a></li>
+    <li><a href="#formulario">Avaliação</a></li>
+  </ul>
+  <a href="#formulario" class="nav-cta">Avaliar</a>
+  <div class="hamburger" onclick="toggleMenu()" aria-label="Menu">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+
+<!-- HERO -->
+<section class="hero" id="inicio">
+  <div class="hero-badge">Disponível agora · Nova geração</div>
+  <h1>Play Has<br><span>No Limits</span></h1>
+  <p class="hero-sub">Experimente velocidades ultrarrápidas, gráficos impressionantes e um mundo totalmente imersivo com o PlayStation 5.</p>
+  <div class="hero-actions">
+    <a href="#formulario" class="btn-primary">Avaliar agora</a>
+    <a href="#features" class="btn-outline">Descobrir mais</a>
+  </div>
+  <div class="hero-img-wrap">
+    <div class="hero-img-placeholder">
+      <img src="./img/Banner principal.jpg" alt="PlayStation 5 Banner" style="width:100%;height:100%;object-fit:cover;border-radius:22px;display:block;">
+    </div>
+    <div class="hero-glow"></div>
+  </div>
+</section>
+
+<!-- FEATURES -->
+<section class="features" id="features">
+  <div class="container">
+    <div class="features-header">
+      <p class="section-label">Por que PS5</p>
+      <h2 class="section-title">Tecnologia que muda<br>tudo que você conhece</h2>
+      <p class="section-sub">Cada componente foi pensado para entregar a experiência mais avançada em games.</p>
+    </div>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon">⚡</div>
+        <h3>SSD Ultra Rápido</h3>
+        <p>Carregamentos quase instantâneos com o SSD personalizado de alta velocidade. Mundos abertos sem espera.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🎯</div>
+        <h3>Haptic Feedback</h3>
+        <p>Sinta a diferença com o controle DualSense — resistência adaptativa que transforma cada ação.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🖥️</div>
+        <h3>Gráficos 4K 120fps</h3>
+        <p>Ray tracing em tempo real e até 120 quadros por segundo. Visual cinematográfico jogável.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🔊</div>
+        <h3>Áudio 3D Tempest</h3>
+        <p>Ouça de onde vêm os sons. O motor de áudio 3D Tempest coloca você dentro do jogo.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">💾</div>
+        <h3>825 GB de Armazenamento</h3>
+        <p>Espaço generoso para seus jogos favoritos, expansível com SSDs compatíveis.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon">🌐</div>
+        <h3>PlayStation Network</h3>
+        <p>Multiplayer online, PlayStation Plus e uma biblioteca crescente de títulos exclusivos.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- GALLERY -->
+<section class="gallery" id="galeria">
+  <div class="container">
+    <div class="gallery-header">
+      <p class="section-label">Galeria</p>
+      <h2 class="section-title">Veja em detalhes</h2>
+      <p class="section-sub">Adicione suas fotos do console, acessórios e jogos. Clique nos espaços para substituir.</p>
+    </div>
+    <div class="gallery-grid">
+      <div class="gallery-item">
+        <div class="img-placeholder">
+<img src="./img/Foto principal do console.jpg" alt="Console PS5" style="width:100%;height:100%;object-fit:cover;display:block;">
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="img-placeholder">
+<img src="./img/Foto do controle.jpg" alt="Controle DualSense" style="width:100%;height:100%;object-fit:cover;display:block;">
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="img-placeholder">
+<img src="./img/Foto lateral.jpg" alt="PS5 vista lateral" style="width:100%;height:100%;object-fit:cover;display:block;">
+        </div>
+      </div>
+      <div class="gallery-item">
+        <div class="img-placeholder">
+<img src="./img/Jogos inclusos.jpg" alt="God of War Ragnarök" style="width:100%;height:100%;object-fit:cover;display:block;">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section class="specs" id="specs">
+  <div class="container">
+    <div class="specs-inner">
+      <div>
+        <p class="section-label">Ficha técnica</p>
+        <h2 class="section-title">Especificações</h2>
+        <div class="specs-list" style="margin-top:2rem;">
+          <div class="spec-row">
+            <span class="spec-label">CPU</span>
+            <span class="spec-value">AMD Zen 2 · 8 núcleos · 3.5 GHz</span>
+          </div>
+          <div class="spec-row">
+            <span class="spec-label">GPU</span>
+            <span class="spec-value">AMD RDNA 2 · 10.3 teraflops</span>
+          </div>
+          <div class="spec-row">
+            <span class="spec-label">RAM</span>
+            <span class="spec-value">16 GB GDDR6</span>
+          </div>
+          <div class="spec-row">
+            <span class="spec-label">SSD</span>
+            <span class="spec-value">825 GB · 5.5 GB/s</span>
+          </div>
+          <div class="spec-row">
+            <span class="spec-label">Resolução</span>
+            <span class="spec-value">Até 8K · 120fps em 4K</span>
+          </div>
+          <div class="spec-row">
+            <span class="spec-label">Áudio</span>
+            <span class="spec-value">Tempest 3D AudioTech</span>
+          </div>
+          <div class="spec-row">
+            <span class="spec-label">Mídia</span>
+            <span class="spec-value">Ultra HD Blu-ray</span>
+          </div>
+          <div class="spec-row">
+            <span class="spec-label">Conectividade</span>
+            <span class="spec-value">Wi-Fi 6 · Bluetooth 5.1</span>
+          </div>
+        </div>
+      </div>
+      <div class="specs-img">
+        <img src="./img/Banner principal.jpg" alt="Foto do console PS5" style="width:100%;height:100%;object-fit:cover;border-radius:22px;display:block;">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<div class="price-banner">
+  <h2>Garantido pelo melhor preço</h2>
+  <div class="price-tag">R$ 3.999</div>
+  <p class="price-sub">À vista · Parcelamento disponível · Frete grátis</p>
+  <a href="#formulario" class="btn-primary">Quero o meu agora</a>
+</div>
+
+
+<section class="form-section" id="formulario">
+  <div class="container">
+    <div style="text-align:center; margin-bottom:2.5rem;">
+      <p class="section-label">Sua opinião importa</p>
+      <h2 class="section-title">Formulário de satisfação</h2>
+      <p class="section-sub" style="margin:0 auto;">Nos conte sua experiência com o PlayStation 5. Seu feedback nos ajuda a melhorar.</p>
+    </div>
+    <div class="form-card">
+      <h3 class="form-title">Avalie seu PS5</h3>
+      <p class="form-sub">Leva menos de 2 minutos · Totalmente gratuito</p>
+      <form id="satisfacaoForm" onsubmit="submitForm(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="nome">Nome completo</label>
+            <input type="text" id="nome" placeholder="Seu nome" required>
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" placeholder="email@exemplo.com" required>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="produto">Qual produto você adquiriu?</label>
+          <select id="produto">
+            <option value="">Selecione um produto</option>
+            <option>PS5 Standard Edition</option>
+            <option>PS5 Digital Edition</option>
+            <option>Controle DualSense</option>
+            <option>PS5 + Jogo Bundle</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label>Avaliação geral</label>
+          <div class="stars-group" id="stars" role="group" aria-label="Avaliação em estrelas">
+            <span onclick="setStars(1)" aria-label="1 estrela">★</span>
+            <span onclick="setStars(2)" aria-label="2 estrelas">★</span>
+            <span onclick="setStars(3)" aria-label="3 estrelas">★</span>
+            <span onclick="setStars(4)" aria-label="4 estrelas">★</span>
+            <span onclick="setStars(5)" aria-label="5 estrelas">★</span>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="experiencia">O que você mais gostou?</label>
+          <select id="experiencia">
+            <option value="">Selecione</option>
+            <option>Desempenho / FPS</option>
+            <option>Design do console</option>
+            <option>Controle DualSense</option>
+            <option>Qualidade gráfica</option>
+            <option>Velocidade do SSD</option>
+            <option>Áudio imersivo</option>
+            <option>Biblioteca de jogos</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="comentario">Comentário livre</label>
+          <textarea id="comentario" placeholder="Conte mais sobre sua experiência com o PS5..."></textarea>
+        </div>
+        <div class="form-group">
+          <label for="recomenda">Você recomendaria a um amigo?</label>
+          <select id="recomenda">
+            <option value="">Selecione</option>
+            <option>Com certeza!</option>
+            <option>Provavelmente sim</option>
+            <option>Talvez</option>
+            <option>Provavelmente não</option>
+          </select>
+        </div>
+        <button type="submit" class="form-submit">Enviar avaliação</button>
+      </form>
+      <div class="success-msg" id="successMsg">
+        <span>🎮</span>
+        Obrigado pela sua avaliação!<br>
+        <small style="font-weight:400; font-size:0.9rem; color:var(--gray-600);">Seu feedback foi recebido com sucesso.</small>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-logo">PlayStation 5</div>
+  <div class="footer-links">
+    <a href="#">Política de privacidade</a>
+    <a href="#">Termos de uso</a>
+    <a href="#">Suporte</a>
+    <a href="#">Contato</a>
+  </div>
+  <p>© 2025 · Anúncio criado para demonstração · PlayStation é marca registrada da Sony Interactive Entertainment.</p>
+</footer>
+
+<!-- SCROLL TOP -->
+<button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Voltar ao topo">↑</button>
+
+<script>
+  let starsVal = 0;
+  function setStars(n) {
+    starsVal = n;
+    document.querySelectorAll('#stars span').forEach((s, i) => {
+      s.classList.toggle('active', i < n);
+    });
+  }
+  function submitForm(e) {
+    e.preventDefault();
+    document.getElementById('satisfacaoForm').style.display = 'none';
+    document.getElementById('successMsg').style.display = 'block';
+  }
+  function toggleMenu() {
+    const links = document.querySelector('.nav-links');
+    if (links.style.display === 'flex') {
+      links.style.display = '';
+    } else {
+      links.style.cssText = 'display:flex;flex-direction:column;position:absolute;top:64px;left:0;right:0;background:rgba(8,12,24,0.97);padding:1.5rem 2rem;gap:1rem;border-bottom:1px solid rgba(0,112,209,0.2);';
+    }
+  }
+  window.addEventListener('scroll', () => {
+    document.getElementById('scrollTop').classList.toggle('visible', window.scrollY > 400);
+  });
+</script>
+</body>
+</html>
